@@ -15,6 +15,7 @@ import javax.swing.JButton;
 
 public class Uhr_Menue  extends JFrame {
 		
+	private static final long serialVersionUID = 1L;
 	protected JSlider colSlider;
 	protected JSlider lengthSliderSecond;
 	protected JSlider thickSliderSecond;	

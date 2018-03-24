@@ -11,6 +11,7 @@ import javax.swing.event.ChangeListener;
 
 public class Uhr_Menue_Listener extends Uhr_Menue implements ChangeListener,ActionListener{
 
+	private static final long serialVersionUID = 1L;
 	ArrayList<Color>       li_farben   = new ArrayList<Color>();
 	ArrayList<BasicStroke> li_staerken = new ArrayList<BasicStroke>();
 	Uhr_Basis b;

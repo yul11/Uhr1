@@ -6,7 +6,8 @@ import java.awt.event.ActionListener;
 
 
 public class Uhr_GoMenue extends Uhr_Start implements ActionListener{
-	
+
+	private static final long serialVersionUID = 1L;
 	Uhr_Basis b;
 		
 	public Uhr_GoMenue(Uhr_Basis b){			

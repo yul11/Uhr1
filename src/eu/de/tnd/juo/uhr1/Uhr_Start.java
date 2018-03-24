@@ -18,12 +18,6 @@ import javax.swing.JPanel;
 
 public class Uhr_Start extends JFrame implements MouseMotionListener {
  
-	/**
-	 * 
-	 */
-	
-	
-	
 	private static final long serialVersionUID = 1L;
 	protected static JLabel label;
 	public static JButton menueButton;

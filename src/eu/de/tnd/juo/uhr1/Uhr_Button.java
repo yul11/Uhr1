@@ -7,6 +7,10 @@ import java.awt.event.ActionListener;
 
 public class Uhr_Button extends Button implements ActionListener {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	int i;
 	Uhr_Basis basis;
 	Thread t;
