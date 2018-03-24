@@ -13,10 +13,7 @@ import javax.swing.JTextField;
 
 
 public class Uhr_Digital2 extends JFrame {
-	
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 	Uhr_Basis b;	
 	JTextField hr     = new JTextField("Stunden");		

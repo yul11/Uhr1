@@ -13,9 +13,6 @@ import javax.swing.JTextField;
 
 public class Uhr_Basis_x extends Uhr_Basis{
 	
-    /**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	protected JTextField txt_sec;
     private int    i_sec;
