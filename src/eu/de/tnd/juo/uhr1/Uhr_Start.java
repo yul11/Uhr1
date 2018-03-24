@@ -36,7 +36,7 @@ public class Uhr_Start extends JFrame implements MouseMotionListener {
 	
 
     public static void main(String[] args) { 
-    	System.out.println("Project Uhr1: first release 01");
+    	System.out.println("Project Uhr1: first release 01 ");
     	Uhr_Basis clock = new Uhr_Basis_x();
     	String text = "interrupt thread in Uhr_Basis()";
 		Uhr_Button b    = new Uhr_Button(clock,text);
