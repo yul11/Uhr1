@@ -13,7 +13,7 @@ public class Uhr_GoMenue extends Uhr_Start implements ActionListener{
 	public Uhr_GoMenue(Uhr_Basis b){			
 		super();	
 		this.b=b;
-		menueButton.addActionListener(this);
+		analogButton.addActionListener(this);
 		digitalButton.addActionListener(this);
 	}
 		

@@ -20,7 +20,7 @@ public class Uhr_Start extends JFrame implements MouseMotionListener {
  
 	private static final long serialVersionUID = 1L;
 	protected static JLabel label;
-	public static JButton menueButton;
+	public static JButton analogButton;
 	public static JButton digitalButton;
 	
 	Uhr_Start() { 
@@ -28,7 +28,7 @@ public class Uhr_Start extends JFrame implements MouseMotionListener {
         setSize(500, 550);
         setLayout(new BorderLayout());
         add(getPanel(), BorderLayout.SOUTH);
-        menueButton    = new JButton("Analog");
+        analogButton   = new JButton("Analog");
         digitalButton  = new JButton("Digital");
     }
  
@@ -38,7 +38,7 @@ public class Uhr_Start extends JFrame implements MouseMotionListener {
     public static void main(String[] args) { 
     	System.out.println("Project Uhr1: first release 01 ");
     	Uhr_Basis clock = new Uhr_Basis_x();
-    	String text = "interrupt thread in Uhr_Basis()";
+    	String text = "button for validation-tests";
 		Uhr_Button b    = new Uhr_Button(clock,text);
 	    JFrame frame    = new Uhr_GoMenue(clock);
 	    frame.setSize(500, 550);
@@ -48,7 +48,7 @@ public class Uhr_Start extends JFrame implements MouseMotionListener {
 		
 		
 		JPanel northPanel = new JPanel();	
-		northPanel.add("West",menueButton);	
+		northPanel.add("West",analogButton);	
 		northPanel.add("East",digitalButton);	
 		
 		mainPanel.add("North",northPanel);	

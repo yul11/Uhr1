@@ -23,16 +23,16 @@ public class Uhr_Button extends Button implements ActionListener {
 		i++;
 		
 		t=basis.getThread();
-		t.interrupt();
+		//t.interrupt();
 		
 		if ((i%2)==0){
 			setBackground(Color.red);
-			setLabel(t.getState().toString());
+			setLabel("state is: " + t.getState().toString());
 			basis.changeColorSecond(Color.RED);							
 		}
 		else{
 			setBackground(Color.yellow);
-			setLabel(t.getState().toString());
+			setLabel("state is: " + t.getState().toString());
 			basis.changeColorSecond(Color.YELLOW);
 		}		
 	}
